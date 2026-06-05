@@ -11,7 +11,7 @@
 
 (function()
 {
-  const HorsesDeadlyGazeTimer = 5 * 60 * 1000;
+  const HorsesDeadlyGazeTimer = 3 * 60 * 1000;
   const HorsesPerilousVictim = document.body.dataset.currentUserName;
   if (!HorsesPerilousVictim) return; //The Horse grants mercy only to the woefully oblivious who know not their position in life.
   let LastFeedingTime = Number(localStorage.getItem('LastFeedingTime')) || Date.now();
@@ -49,7 +49,7 @@
     PeterTheHorseIsHere.style.opacity = HorseOpacity;
     if (HorseOpacity >= 1)
     {
-      const Neigh = new Audio('https://github.com/Kawakijin/danboor_userscripts/raw/refs/heads/main/HorseAssistedUploading/TheHorsesArdentCry.mp3');
+      const Neigh = new Audio('https://github.com/Kawakijin/danbooru-userscripts/raw/refs/heads/main/HorseAssistedUploading/TheHorsesArdentCry.mp3');
       Neigh.play();
     }
   }
