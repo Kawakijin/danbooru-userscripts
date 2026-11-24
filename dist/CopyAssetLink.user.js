@@ -5,8 +5,8 @@
 // @description  Copy asset links from the uploads page
 // @homepageURL  https://github.com/Kawakijin/danbooru-userscripts
 // @supportURL   https://github.com/Kawakijin/danbooru-userscripts/issues
-// @updateURL    https://raw.githubusercontent.com/Kawakijin/danbooru-userscripts/refs/heads/main/dist/CopyAssetLink.js
-// @downloadURL  https://raw.githubusercontent.com/Kawakijin/danbooru-userscripts/refs/heads/main/dist/CopyAssetLink.js
+// @updateURL    https://raw.githubusercontent.com/Kawakijin/danbooru-userscripts/refs/heads/main/dist/CopyAssetLink.user.js
+// @downloadURL  https://raw.githubusercontent.com/Kawakijin/danbooru-userscripts/refs/heads/main/dist/CopyAssetLink.user.js
 // @match        https://danbooru.donmai.us/users/*/uploads*
 // @match        https://cos.lycore.co/users/*/uploads*
 // @icon         https://raw.githubusercontent.com/Kawakijin/danbooru-userscripts/refs/heads/main/resources/danbooru.svg
