@@ -36,10 +36,10 @@ document.querySelectorAll('a[href*="/uploads/"]:has(img)').forEach(AssetLink =>
                       filter:
                       [
                           'drop-shadow(1px 0 0 #000)',
-                  'drop-shadow(-1px 0 0 #000)',
-                  'drop-shadow(0 1px 0 #000)',
-                  'drop-shadow(0 -1px 0 #000)',
-                  'drop-shadow(0 2px 3px rgba(0, 0, 0, 0.6))',
+                          'drop-shadow(-1px 0 0 #000)',
+                          'drop-shadow(0 1px 0 #000)',
+                          'drop-shadow(0 -1px 0 #000)',
+                         'drop-shadow(0 2px 3px rgba(0, 0, 0, 0.6))',
                       ].join(' '),
                   transformOrigin: 'bottom center',
                   });
